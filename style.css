@@ -52,7 +52,7 @@ header img {
 /* Main Title Custom Size for Mobile */
 @media (max-width: 600px) {
   .main-title {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
 }
 
