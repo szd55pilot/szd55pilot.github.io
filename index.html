@@ -3,51 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>York Digital</title>
+  <title>York Digital | David Pye</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="banner">
-    <img src="images/IT banner.jpg" alt="York Digital banner" class="banner-image" />
-    <div class="overlay">
+  <header>
+    <div class="container">
       <h1>York Digital</h1>
-      <button class="menu-toggle" id="menu-toggle">☰</button>
-      <nav class="nav" id="nav">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <p class="tagline">Affordable, Practical IT Support When You Need It</p>
+
+      <div class="menu-toggle" id="menu-toggle">
+        &#9776;
+      </div>
+
+      <nav id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About Us</h2>
-      <p>York Digital provides digital solutions and technical consultancy for individuals and small businesses. We specialise in modern, elegant, and efficient web systems.</p>
+    <section id="home" class="section">
+      <h2>Friendly, Practical, Professional, Affordable IT Support around York</h2>
+      <p>If you need help with your computer, whether it's a desktop, laptop, or other home network, I provide straightforward, reliable <strong>IT support</strong> for individuals and small businesses. I can visit locally or provide help remotely once configured.</p>
     </section>
 
-    <section id="services">
-      <h2>Our Services</h2>
-      <p>We offer bespoke website design, automation, cloud deployment, and system support. Whether you’re starting from scratch or modernising an existing setup, we’ll help you get there efficiently.</p>
+    <section id="services" class="section">
+      <h2>Services Offered</h2>
+      <ul>
+        <li>Data transfer and migration from old to new drives, laptops, or desktops</li>
+        <li>OS agnostic — Windows, MacOS, Linux</li>
+        <li>Supplying and setting up new or quality second-user laptops, desktops, printers, etc.</li>
+        <li>Troubleshooting computers, printers, MFDs, and screens</li>
+        <li>Wi-Fi setup and configuration of smart devices</li>
+        <li>Upgrade options, internal and replacement</li>
+        <li>General computer help, advice, instruction, configuration, and performance tuning</li>
+      </ul>
     </section>
 
-    <section id="contact">
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>I’m a retiring experienced IT professional who enjoys helping people make technology work more effectively for them. My primary focus is on a happy customer at the end of the process along with affordable, practical solutions — no jargon, just reliable, friendly assistance you can trust.</p>
+      <p>And it doesn't stop there — I also provide remote support following my work.</p>
+    </section>
+
+    <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>Email: info@yorkdigital.co.uk</p>
+      <p>To ask advice or about availability, please email:<br>
+        <a href="mailto:szd55pilot@gmail.com">szd55pilot@gmail.com</a>
+      </p>
+      <p>Please include your location and any relevant details so I can confirm options.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 York Digital. All rights reserved.</p>
+    <p>© 2025 DCP | York Digital</p>
   </footer>
 
   <script>
-    const toggle = document.getElementById('menu-toggle');
-    const nav = document.getElementById('nav');
-    toggle.addEventListener('click', () => {
-      nav.classList.toggle('show');
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("nav-menu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("active");
     });
   </script>
 </body>
