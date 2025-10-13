@@ -40,6 +40,22 @@ tagline {
   margin-bottom: 15px;
 }
 
+/* Banner Image */
+header img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  display: block;
+}
+
+/* Main Title Custom Size for Mobile */
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 1.2rem;
+  }
+}
+
 /* Navigation */
 nav {
   margin-top: 10px;
