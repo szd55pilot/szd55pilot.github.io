@@ -56,9 +56,28 @@
 
     <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>To ask about advice or availability, please email me:<br></p>
-        <p><a href="mailto:szd55pilot@gmail.com">szd55pilot@gmail.com</a></p>
-      <p>Please include your location and any relevant technical details.</p>
+      <p>If you'd like to ask advice or check availability, please complete this quick form:</p>
+
+      <form action="https://formspree.io/f/mzzjygpn" method="POST">
+        <label>
+          Name:<br>
+          <input type="text" name="name" required>
+        </label><br>
+
+        <label>
+          Email:<br>
+          <input type="email" name="_replyto" required>
+        </label><br>
+
+        <label>
+          Message:<br>
+          <textarea name="message" rows="5" required></textarea>
+        </label><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p style="font-size:0.9em;opacity:0.7;">You’ll normally receive a reply within 48 hours.</p>
     </section>
   </main>
 
