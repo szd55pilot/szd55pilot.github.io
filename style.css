@@ -214,29 +214,28 @@ footer {
   background-color: #004999;
 }
 
-/* Testimonials Section */
-#testimonials.section {
-  background-color: #eaf4ff;        /* slightly tinted to fit theme */
-  padding: 2em 1em;
-  margin: 2em auto;
-  max-width: 900px;                 /* same as other sections */
-  border-radius: 8px;
+/* Testimonials Section - aligned with standard sections */
+#testimonials {
+  background: #ffffff;                /* same as other sections */
+  border-radius: 10px;
+  padding: 35px;
+  margin-bottom: 40px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 #testimonials h2 {
-  color: #004999;
-  font-size: 1.8em;
-  margin-bottom: 1em;
-  text-align: left;                 /* aligns with your other section headings */
+  color: #2e3b4e;                     /* matches other section headings */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .testimonial {
-  background: #ffffff;
-  border-left: 4px solid #005bbb;
+  border-left: 4px solid #1a73e8;     /* blue accent line */
   padding: 1em 1.2em;
   margin-bottom: 1em;
   border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  background-color: #f8fbff;          /* subtle contrast to white background */
 }
 
 .testimonial p {
