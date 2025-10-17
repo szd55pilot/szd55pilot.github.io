@@ -216,9 +216,11 @@ footer {
 
 /* Testimonials Section - aligned with standard sections */
 #testimonials {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 35px 20px;
   background: #ffffff;                /* same as other sections */
   border-radius: 10px;
-  padding: 35px;
   margin-bottom: 40px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
