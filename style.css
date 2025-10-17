@@ -17,7 +17,7 @@ header {
   background-color: #2e3b4e;
   color: white;
   text-align: center;
-  padding: 25px 0 15px 0;
+  padding: 25px 0;
   border-bottom: 5px solid #1a73e8;
   position: relative;
 }
@@ -34,7 +34,7 @@ header h1 {
   letter-spacing: 1px;
 }
 
-tagline {
+.tagline {
   font-size: 1.1rem;
   color: #cfd8e3;
   margin-bottom: 15px;
@@ -52,7 +52,7 @@ header img {
 /* Main Title Custom Size for Mobile */
 @media (max-width: 600px) {
   .main-title {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
 }
 
@@ -171,8 +171,7 @@ footer {
   border-top: 3px solid #1a73e8;
 }
 
-/* Formspree contact form formatting */
-/* Contact form styling */
+/* Formspree Contact Form Formatting */
 #contact form {
   width: 90%;
   max-width: 400px;       /* limits form width on wide screens */
@@ -183,7 +182,7 @@ footer {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
 
-/* Input and text areas */
+/* Input and Text Areas */
 #contact input,
 #contact textarea {
   width: 100%;
@@ -197,7 +196,7 @@ footer {
   box-sizing: border-box;
 }
 
-/* Button style */
+/* Button Style */
 #contact button {
   display: block;
   background-color: #005bbb;
